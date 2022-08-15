@@ -16,7 +16,7 @@ function onStartBtn() {
 }
 
 function onStoptBtn() {
-    clearTimeout(timerId);    
+    clearInterval(timerId);    
     startBtn.disabled = false;
 }
 
